@@ -13,7 +13,7 @@ public class Main {
         System.out.println("-------------------------------------------------");
 
         System.out.println("Ejercicio 3");
-        System.out.println(ejercicios.ejercicio3(7000));
+        System.out.println(ejercicios.ejercicio3(50.000));
         System.out.println("-------------------------------------------------");
 
         System.out.println("Ejercicio 4");

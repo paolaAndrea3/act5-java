@@ -4,28 +4,59 @@ public class Ejercicios {
     
     public String ejercicio1(int num1, int num2) {
         // Implementar solución
-        return "";
+        if (num1>num2) {
+          return "el numero mayor es: num1" ;
+        } 
+        else if (num2>num1) {
+            return "el numero mayor es: num2" ;
+        }
+        return "los dos numeros son iguales";
     }
     
     public String ejercicio2(double calificacion) {
        // Implementar solución
-        return "";
+       if (calificacion>=3.5 && calificacion<=5.0) {
+        return "felicitaciones a aprovado es examen";
+       }
+        else if (calificacion>=6&& calificacion<=100) {
+            return "calificacion no valida";
+        }
+        return "lo siento uste a reprovado el examen";
     }
 
     
+    /**
+     * @param precio
+     * @return
+     */
     public double ejercicio3(double precio) {
         // Implementar solución
-        return 0;
+        if (precio>=50.000)  {
+           double descuento = 0.1;
+        return  precio -(precio* descuento );
+        }
+        else{
+            return 0;
+        }
+       
     }
     
     public String ejercicio4(int tipoFigura, double ladoCuadrado, double baseTriangulo, double alturaTriangulo,
             double radioCirculo) {
         // Implementar solución
+        
         return "";
     }
     
     public int ejercicio5(int num1, int num2, int num3) {
         // Implementar solución
-        return 0;
+        if (num1<num2&&num1<num3) {
+        return num1;
+        }
+        else if (num2<num1&&num2<num3) {
+            return num2;
+        }
+
+        return num3;
     }
 }

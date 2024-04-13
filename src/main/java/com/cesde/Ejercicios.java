@@ -41,12 +41,32 @@ public class Ejercicios {
        
     }
     
+    /**
+     * @param tipoFigura
+     * @param ladoCuadrado
+     * @param baseTriangulo
+     * @param alturaTriangulo
+     * @param radioCirculo
+     * @return
+     */
     public String ejercicio4(int tipoFigura, double ladoCuadrado, double baseTriangulo, double alturaTriangulo,
             double radioCirculo) {
         // Implementar solución
-        
-        return "";
-    }
+        //esto no me daaaa
+        double area = 0;
+       switch (tipoFigura) {
+        case 1:
+            area = ladoCuadrado * ladoCuadrado;
+            break;
+       case 2:
+            area =  baseTriangulo * alturaTriangulo / 2;
+            break;
+       case 3:
+           area = Math.PI * radioCirculo * radioCirculo;
+           break ;
+            
+       }
+    
     
     public int ejercicio5(int num1, int num2, int num3) {
         // Implementar solución

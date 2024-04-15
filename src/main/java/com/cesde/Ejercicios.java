@@ -49,7 +49,7 @@ public class Ejercicios {
      * @param radioCirculo
      * @return
      */
-    public String ejercicio4(int tipoFigura, double ladoCuadrado, double baseTriangulo, double alturaTriangulo,
+    public double ejercicio4(int tipoFigura, double ladoCuadrado, double baseTriangulo, double alturaTriangulo,
             double radioCirculo) {
         // Implementar solución
         //esto no me daaaa
@@ -63,11 +63,13 @@ public class Ejercicios {
             break;
        case 3:
            area = Math.PI * radioCirculo * radioCirculo;
-           break ;
-            
+           break;
+       }
+       return area;
+       
        }
     
-    
+            
     public int ejercicio5(int num1, int num2, int num3) {
         // Implementar solución
         if (num1<num2&&num1<num3) {

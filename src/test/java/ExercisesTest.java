@@ -63,7 +63,7 @@ public class ExercisesTest {
         double radioCirculo = 0.0;
         double areaEsperada = ladoCuadrado * ladoCuadrado;
         String resultadoEsperado = "El área de la figura es: " + areaEsperada;
-        String resultadoReal = ejercicios.ejercicio4(tipoFigura, ladoCuadrado, baseTriangulo, alturaTriangulo,
+        double resultadoReal = ejercicios.ejercicio4(tipoFigura, ladoCuadrado, baseTriangulo, alturaTriangulo,
                 radioCirculo);
         assertEquals(resultadoEsperado, resultadoReal);
         tipoFigura = 2;

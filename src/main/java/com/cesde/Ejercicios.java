@@ -1,7 +1,7 @@
 package com.cesde;
 
 public class Ejercicios {
-    
+    |
     public String ejercicio1(int num1, int num2) {
         // Implementar solución
         if (num1>num2) {
